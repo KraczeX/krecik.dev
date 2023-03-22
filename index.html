@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>KrecikDev</title>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="/PersonalWeb/assets/css/style.css">
+</head>
+<body>
+
+     <header class="header">
+
+          <div class="loader loader-active"></div>
+
+          <a href="#" class="logo">Krecik</a>
+
+          <i class='bx bx-menu' id="menu-icon"></i>
+
+          <nav class="navbar">
+               <a href="#home" class="active">Strona Główna</a>
+               <a href="#about">O mnie</a>
+               <a href="#services">Usługi</a>
+               <a href="https://github.com/KraczeX">Portfolio</a>
+               <a href="#contact">Kontat</a>
+          </nav>
+          
+
+     </header>
+     <section class="home" id="home">
+          <div class="home-content">
+               <h3>Witaj!</h3>
+               <h1>Jestem Krecik</h1>
+               <h3>I zajmuję się <span>tworzeniem aplikacji internetowych</span></h3>
+               <p>Na mojej stronie znajdziesz najważniejsze informacje o mnie jako Front-End oraz 
+                    Discord.js Developerze. </p>
+                   <p> Zajmuję się kodowaniem w: HTML/CSS/JAVASCRIPT/C++.</p>
+                   <p>Jestem w stanie wykonać dla Ciebię: 
+                    Bota na Server Discord/sam Server/Stronę WWW.</p>
+
+                   <a href="#services" class="btn">Sprawdź</a>
+          </div>
+          <div class="home-img">
+               <img src="/PersonalWeb/assets/img/Programer.png" />
+          </div>
+     </section>
+
+     <section class="about" id="about">
+          <div class="image-about">
+               <img src="/PersonalWeb/assets/img/about.png" alt="">
+          </div> 
+
+          <div class="about-content">
+               <h2 class="heading">Słowo <span>O Mnie</span></h2>
+               <h3>Front-End Developer</h3>
+               <p>Jestem Bartek i swoją przygodę z JS, HTML oraz CSS zacząłem kilka miesięcy temu. Uczę się tworzenia stron internetowych. Aktualnie do tworzenia stron używam trzech najprostrzych do tego technologii lecz w przyszłości zamiezram nauczyć się React.js i wejść an wyrzszy poziom. Aktualnie uczę się JavaScripta oraz Sass. To chyba wszystko o mnie. Jeżeli chcesz uzyskać 
+                    więcej informacji napisz w sekcji Kontat.</p>
+          </div>
+     </section>
+
+
+     <section class="services" id="services">
+          <h2 class="heading">Moje <span>Usługi</span></h2>
+
+          <div class="services-container">
+               <div class="services-box">
+                    <i class="bx bxs-window-alt"></i>
+                    <h3>Strony WWW</h3>
+                    <p>Zrobie dla ciebie ładną, zoptymalizowaną oraz dopracowaną strone internetową. Do tworzenia stron używam HTML, CSS, JS oraz SAAS. 
+                         W przyszłości zamierzam nauczyć się React.js  </p>
+                    <a href="#contact" class="btn">Zamów</a>
+               </div>
+
+               <div class="services-box">
+                    <i class="bx bx-code-alt"></i>
+                    <h3>Boty Discord</h3>
+                    <p>Wykona dla Ciebie profesjonalnego, dopracowanego oraz zoptymalizowanego bota Discord. Posiadam róznież możliwość zamówienia własnych customowych funkjci. Do tworzenia botów używam discord.js</p>
+                    <a href="#contact" class="btn">Zamów</a>
+               </div>
+
+               <div class="services-box">
+                    <i class="bx bxl-discord-alt"></i>
+                    <h3>Servery Discord</h3>
+                    <p>Zaprojektuje oraz wykonam server Discord zgodnie z twoimi potrzebami. Ustawie wszelkiego rodzaju boty, funkcje moderacyjne, logi oraz różnego rodzaju mini-gierki typu
+                         ekonomia etc.
+                    </p>
+                    <a href="#contact" class="btn">Zamów</a>
+               </div>
+          </div>
+
+     </section>
+<!--
+     <section class="portfolio" id="portfolio">
+          <h2 class="heading">Ostatnie <span>Projekty</span></h2>
+          <div class="image-buildier">
+               <img src="assets/img/builder.png"/>
+          </div>
+     </section>
+-->
+
+     <section class="contact" id="contact">
+          <h2 class="heading">Wyślij <span>Wiadomość</span></h2>
+
+          <form action="https://formspree.io/f/mqkodlnw" method="post">
+               <div class="input-box">
+                    <input name="message" type="text" placeholder="Imie np. John">
+                    <input name="email" type="email" placeholder="nikt123@gmail.com">
+                </div>
+               <textarea name="message" id="" cols="30" rows="10" placeholder="Twoje zamówienie"></textarea>
+               <input type="submit" value="Wyślij Wiadomość" class="btn">
+           </form>
+
+     </section>
+
+     <footer class="footer">
+          <div class="footer-text">
+               <p>Copyright &copy; 2023 by Krecik | All Rights Reserved.</p>
+          </div>
+
+          <div class="footer-iconTop">
+               <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+          </div>
+     </footer>
+
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <script src="/PersonalWeb/assets/js/main.js"></script>
+</body>
+</html>
